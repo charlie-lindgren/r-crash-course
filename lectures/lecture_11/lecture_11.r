@@ -44,8 +44,7 @@ print(fruit_factor)
 #' factor representing the size of T-shirts.
 size_vector <- c("S", "M", "L", "M", "S", "XL", "L", "S", "M")
 
-#' Note that the levels, by default, are given by the order of appearance in the
-#' data.
+#' Note that the levels, by default, are given in alphabetical order.
 #'
 #' Create a factor with specified levels
 size_factor <- factor(size_vector)
